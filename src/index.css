@@ -55,7 +55,7 @@
     }
 
     .info-value {
-        @apply text-dark-gray font-bold text-md lg:text-lg;
+        @apply text-dark-gray font-medium text-md lg:text-lg;
         letter-spacing: -0.178571px;
     }
 
