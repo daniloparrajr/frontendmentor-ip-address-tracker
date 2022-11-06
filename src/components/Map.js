@@ -36,9 +36,10 @@ const Map = ({ position }) => {
     }, [])
 
     return (
-        <>
+		<section aria-describedby="ipAddressTrackerMapTitle">
+			<h2 className="sr-only" id="ipAddressTrackerMapTitle">Ip Address Tracker Map</h2>
             {displayMap}
-        </>
+		</section>
     )
 }
 

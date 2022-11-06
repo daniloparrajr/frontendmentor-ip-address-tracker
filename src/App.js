@@ -59,10 +59,12 @@ const App = () => {
     }
 
     return (
-        <div className="App">
+        <>
             <Header details={details} onSearch={searchIp} />
-            <Map position={details.position} />
-        </div>
+            <main>
+				<Map position={details.position} />
+			</main>
+        </>
     )
 }
 
